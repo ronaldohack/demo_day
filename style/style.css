@@ -1,0 +1,13 @@
+header{
+	background-image: url("../img/situdo_1.png");
+	background-size: 100%;
+	height: 700px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+section{
+	height: 1000px;
+}
+nav{
+	justify-content: center;
+}
