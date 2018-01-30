@@ -1,13 +1,35 @@
-header{
-	background-image: url("../img/situdo_1.png");
-	background-size: 100%;
-	height: 700px;
+*{
+	margin: 0;
+	padding: 0;
+}
+/* barra de navegação */
+nav.barra_navegacao_fixa{
+	position: absolute;
+	top: 0;
+	width: 100%;
+
+}
+/* fim da barra de navegação */
+/* começo banner */
+header.banner{
+	background-color: aqua;
+	/* background-image: url("../img/200w_d.gif"); */
 	background-attachment: fixed;
-	background-repeat: no-repeat;
+	background-size: 100%;
 }
-section{
-	height: 1000px;
+div#texto_do_banner{
+	text-align: center;
+	padding-top: 15%;
+	height: 600px;
 }
-nav{
-	justify-content: center;
+/* fim do banner */
+/* começo da primeira seção */
+.primeira_secao{
+	text-align: center;
+	padding-top: 5%;
+	margin-bottom: 5%;
 }
+.primeira_secao h1{
+	padding-bottom: 3%;
+}
+/* fim da primeira seção */
